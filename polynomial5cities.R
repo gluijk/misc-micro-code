@@ -6,6 +6,7 @@
 library(Cairo)  # output antialiasing
 
 
+
 #######################################
 # OLD STYLE CODING
 
@@ -101,6 +102,7 @@ CairoPNG("polynomial_spain5largestcities1.png", width=DIMX, height=DIMY, antiali
     
     abline(h=0, v=0, lty="dotted")
 dev.off()
+
 
 
 #######################################
