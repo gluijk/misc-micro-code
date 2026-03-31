@@ -7,7 +7,7 @@ library(png)
 
 #############################################
 
-img=readPNG("impossible_mission_ripped_sprites.png")  # 14-frame period (first and last sprite equal)
+img=readPNG("impossiblemission_rippedsprites.png")  # 14-frame period (first and last sprite equal)
 HEIGHT=nrow(img)/15  # height in pixels (33)
 WIDTH=ncol(img)  # width in pixels
 PERIOD=70  # period in pixels
